@@ -29,9 +29,9 @@ const AboutMe = () => {
                                 <img className="img-fluid" src={ProgramerImage} alt="" />
                             </div>
                         </div>
-                        <div className="col mt-5">
+                        {/* <div className="col mt-5">
                             <a rel="noreferrer" download href="http://www.keepandshare.com/doc19/view.php?id=37785&da=y" className="btn btn-outline-dark m-3" target="_blank">Resume</a>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </ScrollAnimation>

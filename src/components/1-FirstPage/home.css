@@ -1,0 +1,79 @@
+.header-text {
+  font-family: Oswald;
+  font-size: 2.5rem;
+  color: rgb(69, 69, 87);
+}
+.header-second-text {
+  font-family: Oswald;
+  font-size: 1.4rem;
+  color: rgb(69, 69, 87);
+}
+
+.wave {
+  height: 150px;
+  overflow: "hidden";
+}
+.wave svg {
+  height: 100%;
+  width: 100%;
+}
+.wave path {
+  stroke: none;
+  fill: #f8f9fa;
+}
+
+.section {
+  padding: 10% 5%;
+  background-color: #f8f9fa;
+}
+.saeidImage {
+  width: 50%;
+  border-radius: 30%;
+  margin-left: 100px;
+}
+
+.header-name {
+  color: rgb(69, 69, 87);
+}
+.content {
+  margin: auto;
+  text-align: center;
+}
+
+.content p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+#contact {
+  width: 50%;
+  padding: 3% 1%;
+  margin: auto;
+}
+.folio {
+  font-family: Oswald;
+  color: #f8f9fa;
+}
+@media (max-width: 900px) {
+  .header-text {
+    font-family: Oswald;
+    font-size: 1.8rem;
+  }
+  .saeidImage {
+    align-items: center;
+    margin-left: 70px;
+  }
+  .content p {
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  #contact {
+    width: 75%;
+  }
+}
+
+@media (max-width: 500px) {
+  .saeidImage {
+    width: 50%;
+  }
+}

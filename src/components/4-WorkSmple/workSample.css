@@ -1,0 +1,30 @@
+.row {
+  margin-top: 25px;
+}
+.img-size {
+  width: 100%;
+}
+
+.web-cart {
+  text-align: center;
+  padding: 3rem;
+}
+
+.web-cart img:hover {
+  width: 105%;
+  transition: all, 0.5s;
+}
+.web-cart p {
+  border-bottom: 1px solid gray;
+  border-bottom-style: 10px;
+}
+
+.web-description {
+  font-weight: bold;
+  color: #5c7aea;
+}
+
+.btn {
+  margin-top: 45px;
+  margin-right: 8px;
+}

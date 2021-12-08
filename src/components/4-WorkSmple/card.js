@@ -12,7 +12,7 @@ const cards = [
         description: "Webapp with react",
         img: oak,
         alt: "reactApp",
-        link: "https://saeiddoganii.netlify.app/",
+        link: "http://sdogani.saeiddogani.com/",
         buttonLink: "#",
         className: "btn btn-primary"
     },

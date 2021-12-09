@@ -51,11 +51,11 @@ const Navbar = () => {
                             </li>
                             <li className="m-2 nav-item">
                                 <NavLink
-                                    to="/WorkSample"
+                                    to="/portfolio"
                                     onClick={SampleHandleDirection}
                                     className={(navData) => navData.isActive ? "m-2 nav-link active" : "m-2 nav-link"}
                                 >
-                                    Work Sample
+                                    Portfolio
                                 </NavLink>
                             </li>
                         </ul>

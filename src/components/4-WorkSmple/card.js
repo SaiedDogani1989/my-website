@@ -3,12 +3,13 @@ import bootstrap from "../Image/Bootstrap5.png"
 import flexBox from "../Image/flexBox.png"
 import oak from "../Image/oak.png"
 import sass from "../Image/sass.png"
+import post from "../Image/post.png"
 
 
 
 const cards = [
     {
-        id: 2,
+        id: "212",
         description: "Webapp with react",
         img: oak,
         alt: "reactApp",
@@ -17,7 +18,17 @@ const cards = [
         className: "btn btn-primary"
     },
     {
-        id: 1,
+        id: "612",
+        description: "GET POST PUT DELETE",
+        img: post,
+        alt: "post",
+        link: "http://post.saeiddogani.com/",
+        buttonLink: "#",
+        className: "btn btn-primary"
+
+    },
+    {
+        id: "142",
         description: "Template with bootstrap5",
         img: bootstrap,
         alt: "Bootstrap",
@@ -26,7 +37,7 @@ const cards = [
         className: "btn btn-primary"
     },
     {
-        id: 3,
+        id: "342",
         description: "Template with flex box",
         img: flexBox,
         alt: "flexBox",
@@ -36,7 +47,7 @@ const cards = [
 
     },
     {
-        id: 4,
+        id: "445",
         description: "Template with sass",
         img: sass,
         alt: "Sass",
@@ -46,16 +57,14 @@ const cards = [
 
     },
     {
-        id: 5,
+        id: "545",
         description: "Local storage",
         img: damage,
         alt: "ames",
         link: "https://saeiddogani-d.netlify.app/",
         buttonLink: "#",
         className: "btn btn-primary"
-
     }
-
 ]
 
 export default cards;

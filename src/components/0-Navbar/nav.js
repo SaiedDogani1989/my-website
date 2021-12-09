@@ -16,7 +16,7 @@ const navbar = [
     {
         id: 3,
         label: "Portfolio",
-        path: "/WorkSample",
+        path: "/portfolio",
         className: "m-2 nav-item"
     },
 

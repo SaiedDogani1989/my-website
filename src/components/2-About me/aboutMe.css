@@ -1,15 +1,11 @@
-.description p:first-child {
+.description {
   font-family: Oswald;
   font-size: 1.6rem;
-  font-weight: bold;
   line-height: 2.6rem;
   color: rgb(69, 69, 87);
   margin-top: 15px;
 }
-.description p:last-child {
-  text-align: left;
-  line-height: 2.6rem;
-}
+
 .desktop-image {
   margin: auto;
   text-align: center;

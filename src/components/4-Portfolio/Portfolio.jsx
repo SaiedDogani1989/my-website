@@ -1,13 +1,12 @@
 import React from 'react';
-
-import "./workSample.css"
 import Card from './Cart';
 import cards from './card';
+import "./portfolio.css"
 
 
-const WorkSample = () => {
+const Portfolio = () => {
     return (
-        <div className="container-fluid portfolio">
+        <div className="container-fluid portfolio bg-dark" id="portfolio">
             <div className="row">
                 {cards.map((c) => {
                     return <Card
@@ -26,6 +25,6 @@ const WorkSample = () => {
     );
 }
 
-export default WorkSample;
+export default Portfolio;
 
 

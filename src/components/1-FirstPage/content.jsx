@@ -1,37 +1,23 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
-import Saeid from "../Image/Saeid.png"
-import Contact from './Contact';
-import SlideShow from './SlideShow';
+import Contact from '../Contact/Contact';
+import AboutMe from '../2-About me/AboutMe';
+import Portfolio from '../4-Portfolio/Portfolio';
 import "./home.css"
 
 
 
 
-const Content = () => {
+const HomeContent = () => {
     return (
         <>
-            <section className="mt-4 section">
+            <section className="section">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-md-6">
-                            <ScrollAnimation animateIn="fadeIn">
-                                <p>
-                                    I am passionate about writing semantic, compatible code that is re-useable,
-                                    maintainable and easy to understand. The main areas of my expertise
-                                    are HTML5, CSS3, JavaScript and React.js.
-                                    I have knowledge of Node.js, API, Express.js, SQL and NoSQL.
-                                </p>
-                            </ScrollAnimation>
-                        </div>
-                        <div className="col-md-6 mt-4 mt-md-0">
-                            <img className="img-fluid saeidImage" src={Saeid} alt="" />
-                        </div>
+                    <div className="align-items-center">
+                        <AboutMe />
                     </div>
-                    <a href="#contact" className="btn btn-dark">Contact Me</a>
                 </div>
             </section>
-            <SlideShow />
+            <Portfolio />
             <div className="wave bg-dark">
                 <svg
                     viewBox="0 0 500 150"
@@ -43,10 +29,9 @@ const Content = () => {
                 </svg>
             </div>
             <Contact />
-
         </>
 
     );
 }
 
-export default Content;
+export default HomeContent;
